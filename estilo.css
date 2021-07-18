@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: white;
+    margin-left: 60px;
+}
+.container{
+    max-width: 475px;
+    max-height: 430px;
+    padding: 15px;
+    border-radius: 1rem;
+}
+.container img{
+    width: 100%;
+}
+.container .redes{
+    margin-left: 14rem;
+}
+.container .redes  svg{
+    margin-left: 2rem;
+}
+.container .redes  svg:hover{
+    color: black;
+}
+.container img{
+    margin-top: 45px;
+    margin-left: 60px;
+}
+.logo{
+    margin-left: 60px;
+}
+.titulo-1{
+    max-height: 50px;
+    font-size: 4.7rem;
+    letter-spacing: 2.6rem;
+}
+.titulo-2{
+    max-height: 50px;
+    font-size: 4.7rem;
+    letter-spacing: 1.8rem;
+}
+.logo p{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #343a40;
+}
+.linha:first-child {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, #6839b1, #8253c3);
+    margin-bottom: -20px;
+}
+.linha:last-child {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #6839b1, #8253c3);
+    margin-bottom: 15px;
+}
+.formulario{
+    margin-left: 60px;
+}
+.formulario p{
+    letter-spacing: 0.1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin-bottom: 5px;
+    padding: 0.65rem;
+    border-radius: 15px;
+    border: none;
+    background: #f5f3f4;
+
+}
+.formulario p{
+    color: #968faa;
+}
+input::placeholder{
+    color: #161a1d;
+}
+input:focus-visible {
+    outline: none;
+}
+button{
+    border: none;
+    margin-top: 1rem;
+    padding: 0.6rem;
+    width: 100%;
+    background: linear-gradient(to left, #6839b1, #8253c3);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    letter-spacing: 0.7px;
+    background: linear-gradient(to right, #6839b1, #8253c3);
+}
+.container .direito{
+    font-size: 11px;
+    margin-left: 185px;
+}
+a:link {
+    text-decoration: none;
+    color:#6839b1;
+}
